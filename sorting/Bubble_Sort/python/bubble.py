@@ -12,7 +12,8 @@ def bubble(l, comparator=comparator):
     """
     Bubble sort a given list
     @param {list} l - the list to sort
-    @param {function(arg_a, arg_b)} - function reference
+    @param {function(arg_a, arg_b)} - comparator
+        function reference
         If return value is True, indices with values arg_a and arg_b will be swapped
         Default:
         comparator(val_a, val_b):
