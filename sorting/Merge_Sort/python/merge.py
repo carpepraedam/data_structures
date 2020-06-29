@@ -1,6 +1,8 @@
 def merge_sort(l):
     """
     Recursively sorts an array using merge sort
+    @param {list} l
+    @return {list}
     """
     # base case: list is has one index or is empty
     if len(l) <= 1:
